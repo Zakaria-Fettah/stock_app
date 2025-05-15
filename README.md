@@ -1,16 +1,16 @@
 # stock_app
 
-A new Flutter project.
+Application mobile
+Réalisée avec Flutter, cette application permet d’accéder facilement aux statistiques et aux données importantes directement depuis un smartphone. Elle se connecte à l’application web pour récupérer les informations en temps réel, offrant ainsi une mobilité et une flexibilité supplémentaires aux utilisateurs.
+### Page de Connexion
+![Page de Connexion](login.png)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Tableau de Bord
+Cet écran représente le tableau de bord de l’application mobile Flutter, réservé uniquement à l’administrateur après connexion. Il affiche les statistiques essentielles de gestion :
+•	Total Produits : Nombre de produits enregistrés dans le stock.
+•	Total Achats : Montant global des achats effectués.
+•	Total Ventes : Chiffre d’affaires total généré.
+•	Bénéfices : Résultat net calculé automatiquement.
+Ces données sont récupérées en temps réel via une API connectée à l’application web Laravel. Cela permet à l’administrateur de consulter à distance l’état du stock et des ventes sans avoir besoin d’accéder à l’application desktop.
+Le design a été pensé pour être clair, rapide à lire, et adapté à un usage mobile, avec des icônes représentatives et une mise en page fluide.
+![Tableau de Bord](dashboard.png)
